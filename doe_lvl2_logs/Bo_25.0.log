@@ -1,0 +1,1062 @@
+t=  0.000 | Aire= 7.81524e-01 | Pos_y= 2.50000e+00 | Vel_y= 0.00000e+00 | Re=   0.00 | Chi=  1.000 | T_b=  0.9626 | Pe=   0.00 | Nu=  6.870 | Vort=   0.00
+t=  0.100 | Aire= 7.81517e-01 | Pos_y= 2.50416e+00 | Vel_y= 9.40312e-02 | Re=   4.70 | Chi=  1.001 | T_b=  0.8967 | Pe=   4.70 | Nu=  4.305 | Vort=   1.47
+t=  0.300 | Aire= 7.81546e-01 | Pos_y= 2.53904e+00 | Vel_y= 2.68252e-01 | Re=  13.41 | Chi=  1.016 | T_b=  0.8242 | Pe=  13.41 | Nu=  2.704 | Vort=   3.74
+t=  0.550 | Aire= 7.81570e-01 | Pos_y= 2.62682e+00 | Vel_y= 4.39627e-01 | Re=  21.98 | Chi=  1.078 | T_b=  0.7631 | Pe=  21.98 | Nu=  2.038 | Vort=   6.59
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.725813 sum: -13.6603 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.749852 sum: -23.1242 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.752502 sum: -15.557 nrelax: 100 tolerance: 0.64
+t=  0.800 | Aire= 7.81587e-01 | Pos_y= 2.74639e+00 | Vel_y= 5.13604e-01 | Re=  25.68 | Chi=  1.228 | T_b=  0.7126 | Pe=  25.68 | Nu=  1.826 | Vort=   8.14
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.760828 sum: -14.8953 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.784363 sum: -14.3106 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.814114 sum: -12.8341 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.82382 sum: -12.8196 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.82402 sum: -10.3332 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.822782 sum: -7.45661 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.843533 sum: -1.65376 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.864304 sum: -7.66556 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.844152 sum: -14.9701 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.863604 sum: -3.22075 nrelax: 100 tolerance: 0.64
+t=  1.050 | Aire= 7.81611e-01 | Pos_y= 2.87534e+00 | Vel_y= 5.24069e-01 | Re=  26.20 | Chi=  1.435 | T_b=  0.6666 | Pe=  26.20 | Nu=  1.618 | Vort=   8.95
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.858011 sum: -4.00095 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.865649 sum: -9.42352 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.903726 sum: -10.1854 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.887726 sum: 1.59171 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.890929 sum: 2.78954 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.900794 sum: 4.94275 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.909199 sum: -0.240424 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.912802 sum: -0.696143 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.89715 sum: -2.59125 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.912811 sum: -0.0417554 nrelax: 100 tolerance: 0.64
+t=  1.300 | Aire= 7.81647e-01 | Pos_y= 3.00466e+00 | Vel_y= 5.20034e-01 | Re=  26.00 | Chi=  1.630 | T_b=  0.6210 | Pe=  26.00 | Nu=  1.417 | Vort=  11.65
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.923842 sum: 12.2253 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.915354 sum: 0.360913 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.913749 sum: -0.154596 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.914074 sum: 1.19599 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.898951 sum: -1.06272 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.910186 sum: 3.62314 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.908842 sum: -0.0618158 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.867999 sum: 0.329536 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.856427 sum: -3.81505 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.869744 sum: 1.02237 nrelax: 100 tolerance: 0.64
+t=  1.550 | Aire= 7.81674e-01 | Pos_y= 3.13356e+00 | Vel_y= 5.20806e-01 | Re=  26.04 | Chi=  1.755 | T_b=  0.5775 | Pe=  26.04 | Nu=  1.280 | Vort=  14.61
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.877809 sum: -8.41424 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.84923 sum: -10.8656 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.823788 sum: -14.3282 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.831408 sum: -5.26404 nrelax: 100 tolerance: 0.64
+t=  1.800 | Aire= 7.81706e-01 | Pos_y= 3.26310e+00 | Vel_y= 5.27336e-01 | Re=  26.37 | Chi=  1.967 | T_b=  0.5374 | Pe=  26.37 | Nu=  1.108 | Vort=  14.78
+t=  2.040 | Aire= 7.81722e-01 | Pos_y= 3.38984e+00 | Vel_y= 5.39316e-01 | Re=  26.97 | Chi=  2.098 | T_b=  0.5023 | Pe=  26.97 | Nu=  0.936 | Vort=  16.68
+t=  2.240 | Aire= 7.81744e-01 | Pos_y= 3.49760e+00 | Vel_y= 5.46621e-01 | Re=  27.33 | Chi=  2.237 | T_b=  0.4764 | Pe=  27.33 | Nu=  0.877 | Vort=  16.12
+t=  2.440 | Aire= 7.81755e-01 | Pos_y= 3.60659e+00 | Vel_y= 5.45864e-01 | Re=  27.29 | Chi=  2.326 | T_b=  0.4528 | Pe=  27.29 | Nu=  0.787 | Vort=  15.68
+t=  2.640 | Aire= 7.81772e-01 | Pos_y= 3.71626e+00 | Vel_y= 5.51426e-01 | Re=  27.57 | Chi=  2.531 | T_b=  0.4317 | Pe=  27.57 | Nu=  0.685 | Vort=  15.85
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.812016 sum: 20.4469 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.814248 sum: 25.0335 nrelax: 100 tolerance: 0.64
+t=  2.850 | Aire= 7.81790e-01 | Pos_y= 3.83138e+00 | Vel_y= 5.47378e-01 | Re=  27.37 | Chi=  2.549 | T_b=  0.4116 | Pe=  27.37 | Nu=  0.656 | Vort=  15.33
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.802756 sum: 7.74105 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.833216 sum: 32.0305 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.836378 sum: 22.8427 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.837863 sum: 18.5757 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.820318 sum: 10.7147 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.818893 sum: 15.907 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.831934 sum: 20.8445 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.819512 sum: 23.9298 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.827236 sum: 10.6793 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.799381 sum: 14.0164 nrelax: 100 tolerance: 0.64
+t=  3.100 | Aire= 7.81824e-01 | Pos_y= 3.96740e+00 | Vel_y= 5.44584e-01 | Re=  27.23 | Chi=  2.634 | T_b=  0.3899 | Pe=  27.23 | Nu=  0.565 | Vort=  14.21
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.805303 sum: -1.82386 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.792919 sum: 10.8419 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.790617 sum: 21.6606 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.804194 sum: 21.5772 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.761722 sum: 17.0422 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.773405 sum: 12.4376 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.759367 sum: 18.5789 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.765308 sum: 9.36811 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.745797 sum: 9.0937 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.75535 sum: 6.64981 nrelax: 100 tolerance: 0.64
+t=  3.350 | Aire= 7.81858e-01 | Pos_y= 4.10342e+00 | Vel_y= 5.42262e-01 | Re=  27.11 | Chi=  2.702 | T_b=  0.3702 | Pe=  27.11 | Nu=  0.499 | Vort=  14.22
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.723569 sum: 15.0186 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.697631 sum: 10.6229 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.696948 sum: 28.8342 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.662059 sum: 17.0081 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.640468 sum: 24.8816 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.6582 sum: 4.79583 nrelax: 100 tolerance: 0.64
+t=  3.600 | Aire= 7.81884e-01 | Pos_y= 4.23828e+00 | Vel_y= 5.37302e-01 | Re=  26.87 | Chi=  2.762 | T_b=  0.3521 | Pe=  26.87 | Nu=  0.458 | Vort=  13.17
+t=  3.850 | Aire= 7.81913e-01 | Pos_y= 4.37164e+00 | Vel_y= 5.34932e-01 | Re=  26.75 | Chi=  2.662 | T_b=  0.3351 | Pe=  26.75 | Nu=  0.433 | Vort=  12.30
+t=  4.100 | Aire= 7.81943e-01 | Pos_y= 4.50547e+00 | Vel_y= 5.38338e-01 | Re=  26.92 | Chi=  2.575 | T_b=  0.3193 | Pe=  26.92 | Nu=  0.391 | Vort=  12.53
+t=  4.350 | Aire= 7.81969e-01 | Pos_y= 4.63953e+00 | Vel_y= 5.42208e-01 | Re=  27.11 | Chi=  2.414 | T_b=  0.3044 | Pe=  27.11 | Nu=  0.366 | Vort=  13.26
+t=  4.600 | Aire= 7.81998e-01 | Pos_y= 4.77520e+00 | Vel_y= 5.43207e-01 | Re=  27.16 | Chi=  2.447 | T_b=  0.2904 | Pe=  27.16 | Nu=  0.337 | Vort=  12.84
+t=  4.850 | Aire= 7.82030e-01 | Pos_y= 4.90998e+00 | Vel_y= 5.36519e-01 | Re=  26.83 | Chi=  2.294 | T_b=  0.2768 | Pe=  26.83 | Nu=  0.332 | Vort=  12.49
+t=  5.100 | Aire= 7.82060e-01 | Pos_y= 5.04392e+00 | Vel_y= 5.44324e-01 | Re=  27.22 | Chi=  2.186 | T_b=  0.2634 | Pe=  27.22 | Nu=  0.316 | Vort=  12.63
+t=  5.350 | Aire= 7.82076e-01 | Pos_y= 5.17904e+00 | Vel_y= 5.40110e-01 | Re=  27.01 | Chi=  2.024 | T_b=  0.2509 | Pe=  27.01 | Nu=  0.304 | Vort=  11.04
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.41119 sum: 54.4612 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.32187 sum: 19.1515 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.801314 sum: 16.6924 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.873126 sum: 32.4659 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.884858 sum: 40.2643 nrelax: 100 tolerance: 0.64
+t=  5.600 | Aire= 7.82090e-01 | Pos_y= 5.31504e+00 | Vel_y= 5.46828e-01 | Re=  27.34 | Chi=  2.015 | T_b=  0.2386 | Pe=  27.34 | Nu=  0.290 | Vort=  13.36
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.886026 sum: 29.6237 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.857627 sum: 30.5409 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.937271 sum: 18.4789 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.933034 sum: 16.9546 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.914452 sum: 9.93263 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.945372 sum: 7.87075 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.27419 sum: 31.312 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.29045 sum: 44.1062 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.30218 sum: 25.5673 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.00137 sum: 24.9331 nrelax: 100 tolerance: 0.64
+t=  5.850 | Aire= 7.82109e-01 | Pos_y= 5.45108e+00 | Vel_y= 5.42643e-01 | Re=  27.13 | Chi=  1.919 | T_b=  0.2271 | Pe=  27.13 | Nu=  0.272 | Vort=  13.86
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.05268 sum: 21.8648 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.0564 sum: 29.1516 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.0339 sum: 39.1807 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.04528 sum: 31.1174 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.14751 sum: 77.2763 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.3395 sum: 35.8754 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.26661 sum: 35.002 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.06511 sum: 40.4155 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.1641 sum: 38.3059 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.43616 sum: 46.9341 nrelax: 100 tolerance: 0.64
+t=  6.100 | Aire= 7.82130e-01 | Pos_y= 5.58521e+00 | Vel_y= 5.40335e-01 | Re=  27.02 | Chi=  1.943 | T_b=  0.2159 | Pe=  27.02 | Nu=  0.255 | Vort=  13.50
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.50853 sum: 24.3294 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.43341 sum: 43.7475 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.27229 sum: 46.9197 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.17163 sum: 50.6014 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.14315 sum: 49.6662 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.20915 sum: 56.1937 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.65041 sum: 37.7254 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.40377 sum: 26.5079 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.38083 sum: 29.7303 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.26607 sum: 33.1644 nrelax: 100 tolerance: 0.64
+t=  6.350 | Aire= 7.82149e-01 | Pos_y= 5.72050e+00 | Vel_y= 5.40611e-01 | Re=  27.03 | Chi=  1.999 | T_b=  0.2053 | Pe=  27.03 | Nu=  0.232 | Vort=  14.48
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.28215 sum: 27.7066 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.56241 sum: 26.5377 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.1717 sum: 56.2719 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.16854 sum: 29.5518 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.23727 sum: 21.9274 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.21718 sum: 27.9859 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.10932 sum: 33.2842 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.3649 sum: 31.5688 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.20864 sum: 18.4299 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.16045 sum: 13.0851 nrelax: 100 tolerance: 0.64
+t=  6.600 | Aire= 7.82160e-01 | Pos_y= 5.85445e+00 | Vel_y= 5.35236e-01 | Re=  26.76 | Chi=  1.825 | T_b=  0.1953 | Pe=  26.76 | Nu=  0.226 | Vort=  13.10
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.3866 sum: 23.3658 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.37548 sum: 26.8815 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.38002 sum: 21.0881 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.39557 sum: 27.0487 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.38821 sum: 26.252 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.36001 sum: 21.6935 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.37049 sum: 16.3869 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.11038 sum: 18.1016 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.07941 sum: 36.6165 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.07235 sum: 8.66293 nrelax: 100 tolerance: 0.64
+t=  6.850 | Aire= 7.82174e-01 | Pos_y= 5.98819e+00 | Vel_y= 5.36343e-01 | Re=  26.82 | Chi=  1.752 | T_b=  0.1862 | Pe=  26.82 | Nu=  0.195 | Vort=  13.97
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.37719 sum: 36.736 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.3726 sum: 32.9619 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.35551 sum: 27.3474 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.24924 sum: 28.559 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.30143 sum: 36.3341 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.27824 sum: 55.0805 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.83368 sum: 38.7693 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.45948 sum: 52.7587 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.07283 sum: 45.8502 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.29759 sum: 51.7172 nrelax: 100 tolerance: 0.64
+t=  7.100 | Aire= 7.82206e-01 | Pos_y= 6.12237e+00 | Vel_y= 5.41025e-01 | Re=  27.05 | Chi=  1.538 | T_b=  0.1778 | Pe=  27.05 | Nu=  0.186 | Vort=  13.77
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 7.1367 sum: 42.1486 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 6.11392 sum: 51.838 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 6.09921 sum: 52.2593 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 5.47465 sum: 52.1941 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 5.39075 sum: 42.6864 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 5.60396 sum: 43.3774 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 5.60429 sum: 74.7388 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 5.20275 sum: 31.8191 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.00704 sum: 41.0455 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.70053 sum: 53.952 nrelax: 100 tolerance: 0.64
+t=  7.350 | Aire= 7.82228e-01 | Pos_y= 6.25803e+00 | Vel_y= 5.42311e-01 | Re=  27.12 | Chi=  1.522 | T_b=  0.1700 | Pe=  27.12 | Nu=  0.176 | Vort=  13.42
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.07867 sum: 50.3423 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.00462 sum: 64.941 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.7738 sum: 76.7215 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.72516 sum: 96.9707 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.70333 sum: 75.8993 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.80883 sum: 89.9191 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.96141 sum: 70.385 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.9958 sum: 58.7836 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.99983 sum: 52.7856 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.99112 sum: 63.4331 nrelax: 100 tolerance: 0.64
+t=  7.600 | Aire= 7.82258e-01 | Pos_y= 6.39426e+00 | Vel_y= 5.46048e-01 | Re=  27.30 | Chi=  1.381 | T_b=  0.1630 | Pe=  27.30 | Nu=  0.165 | Vort=  13.80
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.77431 sum: 61.0838 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.70338 sum: 66.0276 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.25354 sum: 92.4792 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.74182 sum: 108.144 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.85423 sum: 60.9186 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.08281 sum: 67.1917 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.68849 sum: 62.9639 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.59176 sum: 52.4425 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.35322 sum: 42.1328 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.58268 sum: 53.8727 nrelax: 100 tolerance: 0.64
+t=  7.850 | Aire= 7.82294e-01 | Pos_y= 6.53053e+00 | Vel_y= 5.49882e-01 | Re=  27.49 | Chi=  1.284 | T_b=  0.1565 | Pe=  27.49 | Nu=  0.157 | Vort=  11.22
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.18813 sum: 80.9098 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.10778 sum: 94.7624 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.1281 sum: 101.882 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.08855 sum: 103.178 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.02185 sum: 115.453 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.09734 sum: 93.0728 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.12725 sum: 74.393 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.7291 sum: 65.9794 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.95707 sum: 63.7153 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.24703 sum: 139.608 nrelax: 100 tolerance: 0.64
+t=  8.100 | Aire= 7.82330e-01 | Pos_y= 6.66796e+00 | Vel_y= 5.51956e-01 | Re=  27.60 | Chi=  1.220 | T_b=  0.1504 | Pe=  27.60 | Nu=  0.149 | Vort=  13.16
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.16902 sum: 184.102 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.02783 sum: 201.766 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.73726 sum: 217.395 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.4854 sum: 95.8214 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.03035 sum: 88.6219 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.66461 sum: 100.688 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.61067 sum: 80.8642 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.44927 sum: 93.7367 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.50018 sum: 105.562 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.53148 sum: 122.27 nrelax: 100 tolerance: 0.64
+t=  8.350 | Aire= 7.82351e-01 | Pos_y= 6.80635e+00 | Vel_y= 5.60987e-01 | Re=  28.05 | Chi=  1.190 | T_b=  0.1445 | Pe=  28.05 | Nu=  0.136 | Vort=  11.86
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.30011 sum: 120.767 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.04316 sum: 121.898 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.68233 sum: 101.718 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.68269 sum: 75.8723 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.02363 sum: 53.9399 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.95715 sum: 78.1975 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.90909 sum: 129.712 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.97942 sum: 148.978 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.44902 sum: 173.141 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.23688 sum: 178.147 nrelax: 100 tolerance: 0.64
+t=  8.600 | Aire= 7.82382e-01 | Pos_y= 6.94756e+00 | Vel_y= 5.71590e-01 | Re=  28.58 | Chi=  1.145 | T_b=  0.1390 | Pe=  28.58 | Nu=  0.141 | Vort=  13.80
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.25716 sum: 104.349 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.15342 sum: 86.921 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.19592 sum: 82.0278 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.20745 sum: 92.405 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.18109 sum: 83.4459 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.54296 sum: 102.723 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.85708 sum: 102.733 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.8304 sum: 114.857 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.71962 sum: 112.241 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.54976 sum: 97.0444 nrelax: 100 tolerance: 0.64
+t=  8.850 | Aire= 7.82416e-01 | Pos_y= 7.09174e+00 | Vel_y= 5.76758e-01 | Re=  28.84 | Chi=  1.117 | T_b=  0.1338 | Pe=  28.84 | Nu=  0.128 | Vort=  11.72
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.26045 sum: 84.9939 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.40825 sum: 77.2439 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.18728 sum: 83.4572 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.45751 sum: 124.933 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.62092 sum: 185.094 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.53544 sum: 167.242 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.40801 sum: 189.775 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.36264 sum: 139.783 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.12854 sum: 116.242 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.69426 sum: 103.856 nrelax: 100 tolerance: 0.64
+t=  9.100 | Aire= 7.82451e-01 | Pos_y= 7.23652e+00 | Vel_y= 5.83000e-01 | Re=  29.15 | Chi=  1.129 | T_b=  0.1287 | Pe=  29.15 | Nu=  0.123 | Vort=  12.50
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.62069 sum: 78.0568 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.21484 sum: 77.8903 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.05921 sum: 122.899 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.17594 sum: 122.962 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.12588 sum: 123.415 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.1249 sum: 100.755 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.81456 sum: 80.0551 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.45745 sum: 63.7756 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.57246 sum: 59.347 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.01358 sum: 73.4017 nrelax: 100 tolerance: 0.64
+t=  9.350 | Aire= 7.82484e-01 | Pos_y= 7.38358e+00 | Vel_y= 5.86041e-01 | Re=  29.30 | Chi=  1.157 | T_b=  0.1240 | Pe=  29.30 | Nu=  0.121 | Vort=  12.36
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.06935 sum: 137.796 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.97949 sum: 205.099 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.37689 sum: 154.578 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.15696 sum: 177.702 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.61817 sum: 157.083 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.24966 sum: 98.2507 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.19316 sum: 93.0091 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.27991 sum: 103.309 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.02374 sum: 121.292 nrelax: 100 tolerance: 0.64
+t=  9.600 | Aire= 7.82502e-01 | Pos_y= 7.52976e+00 | Vel_y= 5.88317e-01 | Re=  29.42 | Chi=  1.062 | T_b=  0.1192 | Pe=  29.42 | Nu=  0.112 | Vort=  13.76
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.676288 sum: 62.9542 nrelax: 100 tolerance: 0.64
+t=  9.850 | Aire= 7.82525e-01 | Pos_y= 7.67635e+00 | Vel_y= 5.81374e-01 | Re=  29.07 | Chi=  1.101 | T_b=  0.1148 | Pe=  29.07 | Nu=  0.104 | Vort=  10.73
+t= 10.100 | Aire= 7.82545e-01 | Pos_y= 7.82131e+00 | Vel_y= 5.80863e-01 | Re=  29.04 | Chi=  1.043 | T_b=  0.1105 | Pe=  29.04 | Nu=  0.104 | Vort=  12.63
+t= 10.350 | Aire= 7.82570e-01 | Pos_y= 7.96718e+00 | Vel_y= 5.78530e-01 | Re=  28.93 | Chi=  1.050 | T_b=  0.1066 | Pe=  28.93 | Nu=  0.099 | Vort=  13.45
+t= 10.600 | Aire= 7.82589e-01 | Pos_y= 8.11169e+00 | Vel_y= 5.78164e-01 | Re=  28.91 | Chi=  1.002 | T_b=  0.1028 | Pe=  28.91 | Nu=  0.094 | Vort=  13.42
+t= 10.850 | Aire= 7.82607e-01 | Pos_y= 8.25668e+00 | Vel_y= 5.79195e-01 | Re=  28.96 | Chi=  0.994 | T_b=  0.0993 | Pe=  28.96 | Nu=  0.091 | Vort=  13.52
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.48678 sum: 64.3914 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.50848 sum: 229.527 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.9452 sum: 181.198 nrelax: 100 tolerance: 0.64
+t= 11.100 | Aire= 7.82633e-01 | Pos_y= 8.40159e+00 | Vel_y= 5.83384e-01 | Re=  29.17 | Chi=  0.974 | T_b=  0.0961 | Pe=  29.17 | Nu=  0.087 | Vort=  13.34
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.88879 sum: 72.0562 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.88354 sum: 74.1842 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.5809 sum: 77.1198 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.56274 sum: 63.9076 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.5283 sum: 78.5374 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.62076 sum: 94.4706 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.42712 sum: 124.936 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.52542 sum: 125.96 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.21319 sum: 123.788 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.26278 sum: 95.986 nrelax: 100 tolerance: 0.64
+t= 11.350 | Aire= 7.82655e-01 | Pos_y= 8.54815e+00 | Vel_y= 5.89696e-01 | Re=  29.48 | Chi=  0.918 | T_b=  0.0929 | Pe=  29.48 | Nu=  0.082 | Vort=  12.49
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.48906 sum: 74.1329 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.48018 sum: 84.9178 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.26994 sum: 108.758 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.13616 sum: 148.645 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.54817 sum: 190.783 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.40671 sum: 137.065 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.17601 sum: 149.196 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.04676 sum: 103.473 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.12939 sum: 97.567 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.66529 sum: 83.3382 nrelax: 100 tolerance: 0.64
+t= 11.600 | Aire= 7.82668e-01 | Pos_y= 8.69506e+00 | Vel_y= 5.89320e-01 | Re=  29.47 | Chi=  0.892 | T_b=  0.0899 | Pe=  29.47 | Nu=  0.079 | Vort=  14.18
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.92083 sum: 68.9588 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.01141 sum: 114.643 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.30742 sum: 97.4894 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.62793 sum: 131.419 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.52553 sum: 132.484 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.49599 sum: 100.588 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.92682 sum: 72.2655 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.02194 sum: 80.8935 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.45277 sum: 93.643 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.02769 sum: 139.728 nrelax: 100 tolerance: 0.64
+t= 11.850 | Aire= 7.82690e-01 | Pos_y= 8.84294e+00 | Vel_y= 5.90957e-01 | Re=  29.55 | Chi=  0.858 | T_b=  0.0871 | Pe=  29.55 | Nu=  0.077 | Vort=  13.46
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.03794 sum: 124.609 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.05835 sum: 127.481 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.907522 sum: 140.557 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.989273 sum: 84.79 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.46926 sum: 75.2667 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.996193 sum: 68.2553 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.14743 sum: 73.6992 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.27877 sum: 115.727 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.97109 sum: 160.789 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.32272 sum: 159.856 nrelax: 100 tolerance: 0.64
+t= 12.100 | Aire= 7.82719e-01 | Pos_y= 8.99125e+00 | Vel_y= 5.96460e-01 | Re=  29.82 | Chi=  0.836 | T_b=  0.0844 | Pe=  29.82 | Nu=  0.075 | Vort=  13.33
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.15104 sum: 115.998 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.36886 sum: 112.518 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.3864 sum: 95.1189 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.5219 sum: 58.5011 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.78425 sum: 75.5476 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.26427 sum: 99.611 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.04108 sum: 106.96 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.3493 sum: 125.503 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.29329 sum: 169.417 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.28892 sum: 125.826 nrelax: 100 tolerance: 0.64
+t= 12.350 | Aire= 7.82745e-01 | Pos_y= 9.14065e+00 | Vel_y= 5.97715e-01 | Re=  29.89 | Chi=  0.820 | T_b=  0.0819 | Pe=  29.89 | Nu=  0.073 | Vort=  11.78
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.2487 sum: 56.6318 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.23212 sum: 79.8754 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.77862 sum: 52.2784 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.71218 sum: 63.2244 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.37917 sum: 154.469 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.62862 sum: 154.632 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.32257 sum: 161.153 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.86201 sum: 176.925 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.34254 sum: 110.088 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.32919 sum: 80.8145 nrelax: 100 tolerance: 0.64
+t= 12.600 | Aire= 7.82782e-01 | Pos_y= 9.29030e+00 | Vel_y= 6.00107e-01 | Re=  30.01 | Chi=  0.794 | T_b=  0.0794 | Pe=  30.01 | Nu=  0.069 | Vort=  11.69
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.41014 sum: 92.6222 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.34704 sum: 99.3326 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.37347 sum: 159.683 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.40969 sum: 139.935 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.0956 sum: 120.426 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.31262 sum: 127.237 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.45621 sum: 151.75 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.62741 sum: 132.132 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.8402 sum: 98.9063 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.71724 sum: 121.859 nrelax: 100 tolerance: 0.64
+t= 12.850 | Aire= 7.82815e-01 | Pos_y= 9.44063e+00 | Vel_y= 5.97943e-01 | Re=  29.90 | Chi=  0.809 | T_b=  0.0771 | Pe=  29.90 | Nu=  0.071 | Vort=  11.77
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.76814 sum: 158.09 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.78329 sum: 148.417 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.5624 sum: 166.601 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.71304 sum: 154.634 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.7082 sum: 112.087 nrelax: 100 tolerance: 0.64
+t= 13.100 | Aire= 7.82850e-01 | Pos_y= 9.58995e+00 | Vel_y= 6.00079e-01 | Re=  30.00 | Chi=  0.789 | T_b=  0.0748 | Pe=  30.00 | Nu=  0.066 | Vort=  12.73
+t= 13.350 | Aire= 7.82864e-01 | Pos_y= 9.73989e+00 | Vel_y= 5.98502e-01 | Re=  29.93 | Chi=  0.790 | T_b=  0.0727 | Pe=  29.93 | Nu=  0.067 | Vort=  12.01
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.769877 sum: 180.707 nrelax: 100 tolerance: 0.64
+t= 13.600 | Aire= 7.82880e-01 | Pos_y= 9.89018e+00 | Vel_y= 6.02732e-01 | Re=  30.14 | Chi=  0.826 | T_b=  0.0706 | Pe=  30.14 | Nu=  0.067 | Vort=  11.63
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.846582 sum: 119.421 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.893817 sum: 112.805 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.912734 sum: 207.02 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.939661 sum: 128.044 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.18998 sum: 57.1818 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.65027 sum: 101.911 nrelax: 100 tolerance: 0.64
+t= 13.850 | Aire= 7.82897e-01 | Pos_y= 1.00406e+01 | Vel_y= 6.05885e-01 | Re=  30.29 | Chi=  0.780 | T_b=  0.0687 | Pe=  30.29 | Nu=  0.065 | Vort=  15.35
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.73824 sum: 122.748 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.70001 sum: 190.446 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.35998 sum: 178.649 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.29446 sum: 200.818 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.92425 sum: 91.3929 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.923233 sum: 96.0185 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.19171 sum: 109.628 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.33315 sum: 151.087 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.48182 sum: 136.345 nrelax: 100 tolerance: 0.64
+t= 14.100 | Aire= 7.82913e-01 | Pos_y= 1.01926e+01 | Vel_y= 6.10832e-01 | Re=  30.54 | Chi=  0.789 | T_b=  0.0668 | Pe=  30.54 | Nu=  0.063 | Vort=  13.17
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.47822 sum: 175.009 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.558 sum: 167.588 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.00377 sum: 182.168 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.888207 sum: 177.652 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.51009 sum: 192.961 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.47942 sum: 154.46 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.39934 sum: 162.965 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.44196 sum: 233.921 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.42902 sum: 217.68 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.864057 sum: 207.841 nrelax: 100 tolerance: 0.64
+t= 14.350 | Aire= 7.82937e-01 | Pos_y= 1.03457e+01 | Vel_y= 6.16696e-01 | Re=  30.83 | Chi=  0.763 | T_b=  0.0651 | Pe=  30.83 | Nu=  0.060 | Vort=  14.17
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.29593 sum: 131.83 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.13562 sum: 133.825 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.19572 sum: 107.833 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 4.13946 sum: 139.067 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.63376 sum: 172.769 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.27538 sum: 123.805 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.22353 sum: 189.642 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.36558 sum: 175.041 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.09191 sum: 172.136 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.0019 sum: 164.001 nrelax: 100 tolerance: 0.64
+t= 14.600 | Aire= 7.82946e-01 | Pos_y= 1.04999e+01 | Vel_y= 6.21125e-01 | Re=  31.06 | Chi=  0.749 | T_b=  0.0634 | Pe=  31.06 | Nu=  0.060 | Vort=  12.87
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.89243 sum: 157.269 nrelax: 100 tolerance: 1
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.84434 sum: 191.228 nrelax: 100 tolerance: 1
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.55675 sum: 190.927 nrelax: 100 tolerance: 1
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.02046 sum: 162.137 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.98064 sum: 172.091 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.896513 sum: 152.438 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.887601 sum: 118.371 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.870588 sum: 119.039 nrelax: 100 tolerance: 0.64
+t= 14.825 | Aire= 7.82952e-01 | Pos_y= 1.06391e+01 | Vel_y= 6.15173e-01 | Re=  30.76 | Chi=  0.760 | T_b=  0.0620 | Pe=  30.76 | Nu=  0.058 | Vort=  16.86
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.740152 sum: 173.455 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.697859 sum: 187.148 nrelax: 100 tolerance: 0.64
+t= 15.075 | Aire= 7.82978e-01 | Pos_y= 1.07927e+01 | Vel_y= 6.18215e-01 | Re=  30.91 | Chi=  0.731 | T_b=  0.0604 | Pe=  30.91 | Nu=  0.057 | Vort=  13.65
+t= 15.325 | Aire= 7.82994e-01 | Pos_y= 1.09467e+01 | Vel_y= 6.15071e-01 | Re=  30.75 | Chi=  0.747 | T_b=  0.0589 | Pe=  30.75 | Nu=  0.057 | Vort=  13.20
+t= 15.540 | Aire= 7.83017e-01 | Pos_y= 1.10799e+01 | Vel_y= 6.17243e-01 | Re=  30.86 | Chi=  0.718 | T_b=  0.0575 | Pe=  30.86 | Nu=  0.056 | Vort=  14.66
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.30226 sum: 131.47 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.39781 sum: 148.81 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.68804 sum: 139.909 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.76854 sum: 115.154 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.17873 sum: 173.781 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.15887 sum: 194.407 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.693835 sum: 179.412 nrelax: 100 tolerance: 0.64
+t= 15.775 | Aire= 7.83036e-01 | Pos_y= 1.12228e+01 | Vel_y= 6.02748e-01 | Re=  30.14 | Chi=  0.710 | T_b=  0.0561 | Pe=  30.14 | Nu=  0.058 | Vort=  12.89
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.09656 sum: 129.626 nrelax: 100 tolerance: 0.64
+t= 16.025 | Aire= 7.83057e-01 | Pos_y= 1.13719e+01 | Vel_y= 5.92458e-01 | Re=  29.62 | Chi=  0.716 | T_b=  0.0546 | Pe=  29.62 | Nu=  0.058 | Vort=  12.35
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.798814 sum: 173.302 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.11113 sum: 119.138 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.56722 sum: 135.923 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.48577 sum: 119.787 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.49427 sum: 146.878 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.50283 sum: 173.392 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.54462 sum: 172.574 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.63338 sum: 231.388 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.84349 sum: 185.283 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.5227 sum: 186.552 nrelax: 100 tolerance: 0.64
+t= 16.275 | Aire= 7.83093e-01 | Pos_y= 1.15188e+01 | Vel_y= 5.84801e-01 | Re=  29.24 | Chi=  0.717 | T_b=  0.0532 | Pe=  29.24 | Nu=  0.056 | Vort=  11.62
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.21393 sum: 168.071 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.83705 sum: 141.489 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.65368 sum: 136.378 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.865231 sum: 134.364 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.89726 sum: 116.859 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.93602 sum: 117.391 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.938618 sum: 131.366 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.97054 sum: 89.2405 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.998776 sum: 175.121 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.01903 sum: 132.42 nrelax: 100 tolerance: 0.64
+t= 16.525 | Aire= 7.83110e-01 | Pos_y= 1.16636e+01 | Vel_y= 5.76079e-01 | Re=  28.80 | Chi=  0.721 | T_b=  0.0518 | Pe=  28.80 | Nu=  0.055 | Vort=  11.71
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.992513 sum: 163.041 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.00761 sum: 191.585 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.32349 sum: 213.671 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.61409 sum: 214.241 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.19715 sum: 155.485 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.70736 sum: 106.485 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.79018 sum: 168.776 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.41529 sum: 128.401 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.74535 sum: 137.021 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.51665 sum: 136.928 nrelax: 100 tolerance: 0.64
+t= 16.775 | Aire= 7.83131e-01 | Pos_y= 1.18074e+01 | Vel_y= 5.76604e-01 | Re=  28.83 | Chi=  0.714 | T_b=  0.0505 | Pe=  28.83 | Nu=  0.053 | Vort=  11.46
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.09869 sum: 117.617 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.08581 sum: 140.903 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.05068 sum: 118.459 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.00289 sum: 155 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.41625 sum: 124.437 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.90371 sum: 124.359 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.50709 sum: 147.68 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.27689 sum: 159.53 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.6594 sum: 208.454 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.00394 sum: 246.035 nrelax: 100 tolerance: 0.64
+t= 17.025 | Aire= 7.83157e-01 | Pos_y= 1.19518e+01 | Vel_y= 5.80978e-01 | Re=  29.05 | Chi=  0.713 | T_b=  0.0494 | Pe=  29.05 | Nu=  0.053 | Vort=  10.90
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.72651 sum: 177.423 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.82915 sum: 140.338 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.85375 sum: 135.913 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.14236 sum: 99.7827 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.28918 sum: 115.68 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.48968 sum: 129.746 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.50138 sum: 154.143 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.02273 sum: 92.2202 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.70833 sum: 143.672 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.75488 sum: 145.644 nrelax: 100 tolerance: 0.64
+t= 17.275 | Aire= 7.83178e-01 | Pos_y= 1.20977e+01 | Vel_y= 5.86909e-01 | Re=  29.35 | Chi=  0.711 | T_b=  0.0482 | Pe=  29.35 | Nu=  0.051 | Vort=  13.23
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.29167 sum: 145.828 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.37917 sum: 124.301 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.14331 sum: 113.453 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.2926 sum: 158.338 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.60034 sum: 123.104 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.4299 sum: 164.211 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.20099 sum: 159.566 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.44883 sum: 178.451 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.22944 sum: 139.719 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.44696 sum: 160.217 nrelax: 100 tolerance: 0.64
+t= 17.525 | Aire= 7.83208e-01 | Pos_y= 1.22456e+01 | Vel_y= 6.00497e-01 | Re=  30.02 | Chi=  0.704 | T_b=  0.0473 | Pe=  30.02 | Nu=  0.051 | Vort=  13.52
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.62209 sum: 69.5092 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.83921 sum: 108.56 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.78129 sum: 105.89 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.74971 sum: 163.864 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.7071 sum: 158.267 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.67531 sum: 155.871 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.26787 sum: 157.447 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.27924 sum: 189.821 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.9416 sum: 141.501 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.01189 sum: 157.024 nrelax: 100 tolerance: 0.64
+t= 17.775 | Aire= 7.83224e-01 | Pos_y= 1.23971e+01 | Vel_y= 6.13802e-01 | Re=  30.69 | Chi=  0.682 | T_b=  0.0463 | Pe=  30.69 | Nu=  0.048 | Vort=  14.85
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.95104 sum: 134.059 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 3.00952 sum: 136.548 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.1451 sum: 125.754 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.3289 sum: 130.037 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.54031 sum: 145.91 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.33225 sum: 147.325 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.2531 sum: 119.596 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.29905 sum: 143.708 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.05239 sum: 134.317 nrelax: 100 tolerance: 0.64
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.02916 sum: 99.6142 nrelax: 100 tolerance: 0.420932
+t= 18.031 | Aire= 7.83254e-01 | Pos_y= 1.25558e+01 | Vel_y= 6.28138e-01 | Re=  31.41 | Chi=  0.673 | T_b=  0.0454 | Pe=  31.41 | Nu=  0.049 | Vort=  15.19
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.858258 sum: 88.3277 nrelax: 100 tolerance: 0.420464
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.919936 sum: 89.0915 nrelax: 100 tolerance: 0.47846
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.823493 sum: 87.9588 nrelax: 100 tolerance: 0.471706
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.783358 sum: 121.408 nrelax: 100 tolerance: 0.465689
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.788317 sum: 109.806 nrelax: 100 tolerance: 0.460318
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.722382 sum: 108.244 nrelax: 100 tolerance: 0.455516
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.846148 sum: 84.6253 nrelax: 100 tolerance: 0.450723
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.732029 sum: 121.549 nrelax: 100 tolerance: 0.450695
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.642198 sum: 89.292 nrelax: 100 tolerance: 0.477883
+t= 18.326 | Aire= 7.83278e-01 | Pos_y= 1.27444e+01 | Vel_y= 6.52627e-01 | Re=  32.63 | Chi=  0.670 | T_b=  0.0445 | Pe=  32.63 | Nu=  0.048 | Vort=  14.36
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.612462 sum: 83.1828 nrelax: 100 tolerance: 0.476103
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.550822 sum: 57.8729 nrelax: 100 tolerance: 0.499184
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.526727 sum: 64.5158 nrelax: 100 tolerance: 0.493172
+t= 18.605 | Aire= 7.83311e-01 | Pos_y= 1.29280e+01 | Vel_y= 6.64590e-01 | Re=  33.23 | Chi=  0.644 | T_b=  0.0435 | Pe=  33.23 | Nu=  0.048 | Vort=  12.90
+t= 18.864 | Aire= 7.83331e-01 | Pos_y= 1.30992e+01 | Vel_y= 6.61929e-01 | Re=  33.10 | Chi=  0.622 | T_b=  0.0426 | Pe=  33.10 | Nu=  0.048 | Vort=  13.88
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 0.98559 sum: 129.187 nrelax: 100 tolerance: 0.743135
+t= 19.103 | Aire= 7.83365e-01 | Pos_y= 1.32553e+01 | Vel_y= 6.46555e-01 | Re=  32.33 | Chi=  0.607 | T_b=  0.0417 | Pe=  32.33 | Nu=  0.048 | Vort=  17.38
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.10393 sum: 189.086 nrelax: 100 tolerance: 0.886329
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.18218 sum: 206.141 nrelax: 100 tolerance: 0.871952
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.16054 sum: 191.796 nrelax: 100 tolerance: 0.849979
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.66667 sum: 186.27 nrelax: 100 tolerance: 0.912565
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.5868 sum: 171.589 nrelax: 100 tolerance: 0.902652
+t= 19.323 | Aire= 7.83390e-01 | Pos_y= 1.33958e+01 | Vel_y= 6.26420e-01 | Re=  31.32 | Chi=  0.568 | T_b=  0.0409 | Pe=  31.32 | Nu=  0.048 | Vort=  17.33
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.598 sum: 185.724 nrelax: 100 tolerance: 0.886113
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.87235 sum: 104.749 nrelax: 100 tolerance: 0.862958
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.46079 sum: 123.372 nrelax: 100 tolerance: 0.834445
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.4174 sum: 120.916 nrelax: 100 tolerance: 0.832147
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.39168 sum: 122.028 nrelax: 100 tolerance: 0.818236
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.27566 sum: 138.058 nrelax: 100 tolerance: 0.800165
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.44352 sum: 117.303 nrelax: 100 tolerance: 0.776995
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.23421 sum: 92.2257 nrelax: 100 tolerance: 0.7723
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.21135 sum: 142.671 nrelax: 100 tolerance: 0.758554
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.41722 sum: 123.642 nrelax: 100 tolerance: 0.743747
+t= 19.546 | Aire= 7.83405e-01 | Pos_y= 1.35326e+01 | Vel_y= 6.05256e-01 | Re=  30.26 | Chi=  0.523 | T_b=  0.0401 | Pe=  30.26 | Nu=  0.045 | Vort=  16.81
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.31158 sum: 158.776 nrelax: 100 tolerance: 0.734152
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.48209 sum: 149.608 nrelax: 100 tolerance: 0.731003
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.181 sum: 189.351 nrelax: 100 tolerance: 0.722251
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.12302 sum: 169.964 nrelax: 100 tolerance: 0.709419
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.66645 sum: 196.083 nrelax: 100 tolerance: 0.702125
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.94471 sum: 179.095 nrelax: 100 tolerance: 0.690425
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.35965 sum: 163.569 nrelax: 100 tolerance: 0.679061
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.29904 sum: 157.282 nrelax: 100 tolerance: 0.664991
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.51904 sum: 143.234 nrelax: 100 tolerance: 0.659467
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.47084 sum: 136.182 nrelax: 100 tolerance: 0.651186
+t= 19.786 | Aire= 7.83427e-01 | Pos_y= 1.36753e+01 | Vel_y= 5.85526e-01 | Re=  29.28 | Chi=  0.510 | T_b=  0.0392 | Pe=  29.28 | Nu=  0.043 | Vort=  12.89
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.57973 sum: 193.247 nrelax: 100 tolerance: 0.641016
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 2.35291 sum: 186.484 nrelax: 100 tolerance: 0.633988
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.22609 sum: 225.576 nrelax: 100 tolerance: 0.628015
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.47535 sum: 216.321 nrelax: 100 tolerance: 0.621244
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.4449 sum: 205.253 nrelax: 100 tolerance: 0.612472
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.58212 sum: 159.835 nrelax: 100 tolerance: 0.610778
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.25205 sum: 209.419 nrelax: 100 tolerance: 0.606945
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.41752 sum: 165.682 nrelax: 100 tolerance: 0.601808
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.63133 sum: 154.63 nrelax: 100 tolerance: 0.598094
+src/poisson.h:219: warning: convergence for pf not reached after 100 iterations
+  res: 1.68253 sum: 158.175 nrelax: 100 tolerance: 0.597628
