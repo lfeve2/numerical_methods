@@ -7,7 +7,7 @@
 #include "tracer.h"
 #include "diffusion.h"
 
-#define BASE_OUTDIR "/mnt/c/Users/liamfve/MF2A/course_materials/Projet/doe_lvl3"
+#define BASE_OUTDIR "output"
 
 #define RHOR 1000.
 #define MUR  100.
@@ -18,9 +18,8 @@ scalar * tracers = {T};
 double Ga = 50.0;
 double Bo = 4.0;
 double Pr = 1.0;
-double Ja = 0.60; // Nombre de Jakob
 int LEVEL = 9;
-char casename[128] = "collapse_total";
+char casename[128] = "default";
 char outdir[1024];
 
 void output_vtu_ascii (scalar * list, vector * vlist, FILE * fp) {
@@ -81,8 +80,7 @@ int main (int argc, char * argv[]) {
   if (argc > 2) Ga    = atof (argv[2]);
   if (argc > 3) Bo    = atof (argv[3]);
   if (argc > 4) Pr    = atof (argv[4]);
-  if (argc > 5) Ja    = atof (argv[5]);
-  if (argc > 6) strncpy (casename, argv[6], 127);
+  if (argc > 5) strncpy (casename, argv[5], 127);
 
   snprintf (outdir, sizeof(outdir), "%s/%s", BASE_OUTDIR, casename);
   char cmd[1100];
@@ -107,7 +105,7 @@ event init (t = 0) {
   refine (sq(x) + sq(y - 2.5) - sq(0.75) < 0 && level < LEVEL);
   fraction (f, sq(x) + sq(y - 2.5) - sq(0.5));
 
-  // Condition initiale physique : vapeur saturée T=1, liquide sous-refroidi T=0
+  // Condition initiale physique : bulle chaude (T=1), liquide froid (T=0)
   foreach()
     T[] = 1. - f[];
 }
@@ -118,7 +116,6 @@ event acceleration (i++) {
     av.y[] -= 1.;
 }
 
-// Diffusion thermique implicite
 event tracer_diffusion (i++) {
   face vector alpha_d[];
   double alpha1 = 1.0 / (Ga * Pr);
@@ -130,45 +127,6 @@ event tracer_diffusion (i++) {
   }
 
   diffusion (T, dt, alpha_d);
-
-  // La vapeur reste à la température de saturation Tsat = 1.0
-  foreach() {
-    if (f[] < 1e-2)
-      T[] = 1.0;
-  }
-}
-
-// Changement de phase calculé en fin de pas de temps
-event end_timestep (i++) {
-  double alpha_l = 1.0 / (Ga * Pr);
-
-  foreach() {
-    if (f[] > 1e-4 && f[] < 1.0 - 1e-4) {
-      coord n = interface_normal (point, f);
-      double mag = 0.;
-      foreach_dimension()
-        mag += sq(n.x);
-      mag = sqrt(mag);
-
-      if (mag > 0.) {
-        foreach_dimension()
-          n.x /= mag;
-
-        double gradTx = (T[1,0] - T[-1,0]) / (2. * Delta);
-        double gradTy = (T[0,1] - T[0,-1]) / (2. * Delta);
-
-        // Flux thermique conducto-convectif sortant
-        double q_n = fabs(gradTx * n.x + gradTy * n.y);
-
-        if (q_n > 1e-3) {
-          // Retrait volumique : f augmente (liquide) au détriment de la bulle
-          double delta_f = Ja * alpha_l * (q_n / Delta) * dt;
-          f[] = fmin (f[] + delta_f, 1.0);
-        }
-      }
-    }
-  }
-  boundary ({f});
 }
 
 event adapt (i++) {
@@ -176,8 +134,8 @@ event adapt (i++) {
   adapt_wavelet ({f, u.x, u.y, T}, (double[]){0.01, uemax, uemax, 0.01}, LEVEL, 4);
 }
 
-// Exportation des champs pour ParaView
-event snapshot_vtu (t = 0; t += 0.1; t <= 20.0) {
+// 201 snapshots VTU pour animations ParaView fluides
+event snapshot_vtu (t = 0; t += 0.1; t <= 18.0) {
   int step = (int) round(t / 0.1);
   char path[1100];
   snprintf (path, sizeof(path), "%s/bubble_%04d.vtu", outdir, step);
@@ -188,7 +146,7 @@ event snapshot_vtu (t = 0; t += 0.1; t <= 20.0) {
   }
 }
 
-// Suivi quantitatif géométrique et thermique
+// Extraction robuste par moments d'inertie
 event logfile (i += 10; t <= 20.0) {
   double sb = 0.;
   double xb = 0., yb = 0.;
@@ -245,9 +203,8 @@ event logfile (i += 10; t <= 20.0) {
   double Nu_mean = (perimeter > 1e-12) ? (interfacial_flux / perimeter) : 0.0;
   double Re = vby * Ga;
   double Pe = Re * Pr;
-  double V_ratio = sb / (M_PI * sq(0.5));
 
-  fprintf (stderr, "t= %6.3f | Aire= %8.5e | V_rat= %6.3f | Pos_y= %8.5e | Vel_y= %8.5e | Re= %6.2f | Chi= %6.3f | T_b= %7.4f | Pe= %6.2f | Nu= %6.3f\n",
-           t, sb, V_ratio, yb, vby, Re, aspect_ratio, t_bubble, Pe, Nu_mean);
+  fprintf (stderr, "t= %6.3f | Aire= %8.5e | Pos_y= %8.5e | Vel_y= %8.5e | Re= %6.2f | Chi= %6.3f | T_b= %7.4f | Pe= %6.2f | Nu= %6.3f | Vort= %6.2f\n",
+           t, sb, yb, vby, Re, aspect_ratio, t_bubble, Pe, Nu_mean, max_vort);
   fflush (stderr);
 }

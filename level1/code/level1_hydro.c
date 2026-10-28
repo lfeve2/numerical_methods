@@ -7,7 +7,7 @@
 #include "tracer.h"
 #include "diffusion.h"
 
-#define BASE_OUTDIR "/mnt/c/Users/liamfve/MF2A/course_materials/Projet/doe_lvl2"
+#define BASE_OUTDIR "output"
 
 #define RHOR 1000.
 #define MUR  100.
