@@ -1,6 +1,6 @@
 #include "navier-stokes/centered.h"
 
-// Moyenne harmonique pour la viscosité
+// Harmonic mean for viscosity
 #define mu(f) (1./(clamp(f,0,1)*(1./mu1 - 1./mu2) + 1./mu2))
 #include "two-phase.h"
 #include "tension.h"
@@ -105,7 +105,7 @@ event init (t = 0) {
   refine (sq(x) + sq(y - 2.5) - sq(0.75) < 0 && level < LEVEL);
   fraction (f, sq(x) + sq(y - 2.5) - sq(0.5));
 
-  // Condition initiale physique : bulle chaude (T=1), liquide froid (T=0)
+  // Physical initial condition: hot bubble (T=1), cold liquid (T=0)
   foreach()
     T[] = 1. - f[];
 }

@@ -27,13 +27,13 @@ BASE_OUTDIR = PROJECT_ROOT / "output" / "doe_lvl2"
 LOG_DIR = PROJECT_ROOT / "output" / "doe_lvl2_logs"
 PLOTS_DIR = PROJECT_ROOT / "plots"
 
-# Fichiers de sortie : l'arborescence est maintenant propre et portable sur macOS.
+# Output files: the directory structure is clean and portable on macOS.
 PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 EXEC.parent.mkdir(parents=True, exist_ok=True)
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 BASE_OUTDIR.mkdir(parents=True, exist_ok=True)
 
-# Plan d'expérience complet (Niveaux 1 et 2)
+# Complete experimental plan (Levels 1 and 2)
 EXPERIMENTS = [
     {"name": "Bo_0.25", "Ga": 50.0, "Bo": 0.25, "Pr": 1.0, "level": 9},
     {"name": "Bo_0.5",  "Ga": 50.0, "Bo": 0.5,  "Pr": 1.0, "level": 9},
@@ -53,7 +53,7 @@ EXPERIMENTS = [
 ]
 
 if not C_SRC_ABSOLUTE.exists():
-    raise FileNotFoundError(f"Le fichier Basilisk n'a pas été trouvé : {C_SRC_ABSOLUTE}")
+    raise FileNotFoundError(f"The Basilisk source file was not found: {C_SRC_ABSOLUTE}")
 
 print("--- Compilation Level 2 Basilisk Solver ---")
 compile_proc = subprocess.run(

@@ -1,6 +1,6 @@
 #include "navier-stokes/centered.h"
 
-// Moyenne harmonique pour la viscosité
+// Harmonic mean for viscosity
 #define mu(f) (1./(clamp(f,0,1)*(1./mu1 - 1./mu2) + 1./mu2))
 #include "two-phase.h"
 #include "tension.h"
@@ -107,7 +107,7 @@ event init (t = 0) {
   refine (sq(x) + sq(y - 2.5) - sq(0.75) < 0 && level < LEVEL);
   fraction (f, sq(x) + sq(y - 2.5) - sq(0.5));
 
-  // Condition initiale physique : vapeur saturée T=1, liquide sous-refroidi T=0
+  // Physical initial condition: saturated vapor T=1, subcooled liquid T=0
   foreach()
     T[] = 1. - f[];
 }
@@ -118,7 +118,7 @@ event acceleration (i++) {
     av.y[] -= 1.;
 }
 
-// Diffusion thermique implicite
+// Implicit thermal diffusion
 event tracer_diffusion (i++) {
   face vector alpha_d[];
   double alpha1 = 1.0 / (Ga * Pr);
@@ -131,14 +131,14 @@ event tracer_diffusion (i++) {
 
   diffusion (T, dt, alpha_d);
 
-  // La vapeur reste à la température de saturation Tsat = 1.0
+  // Keep the vapor at the saturation temperature Tsat = 1.0
   foreach() {
     if (f[] < 1e-2)
       T[] = 1.0;
   }
 }
 
-// Changement de phase calculé en fin de pas de temps
+// Compute phase change at the end of each time step
 event end_timestep (i++) {
   double alpha_l = 1.0 / (Ga * Pr);
 
@@ -157,11 +157,11 @@ event end_timestep (i++) {
         double gradTx = (T[1,0] - T[-1,0]) / (2. * Delta);
         double gradTy = (T[0,1] - T[0,-1]) / (2. * Delta);
 
-        // Flux thermique conducto-convectif sortant
+        // Outgoing conductive-convective heat flux
         double q_n = fabs(gradTx * n.x + gradTy * n.y);
 
         if (q_n > 1e-3) {
-          // Retrait volumique : f augmente (liquide) au détriment de la bulle
+          // Volume shrinkage: f increases (liquid replaces the bubble)
           double delta_f = Ja * alpha_l * (q_n / Delta) * dt;
           f[] = fmin (f[] + delta_f, 1.0);
         }
@@ -176,7 +176,7 @@ event adapt (i++) {
   adapt_wavelet ({f, u.x, u.y, T}, (double[]){0.01, uemax, uemax, 0.01}, LEVEL, 4);
 }
 
-// Exportation des champs pour ParaView
+// Export fields for ParaView
 event snapshot_vtu (t = 0; t += 0.1; t <= 20.0) {
   int step = (int) round(t / 0.1);
   char path[1100];
@@ -188,7 +188,7 @@ event snapshot_vtu (t = 0; t += 0.1; t <= 20.0) {
   }
 }
 
-// Suivi quantitatif géométrique et thermique
+// Quantitative geometric and thermal diagnostics
 event logfile (i += 10; t <= 20.0) {
   double sb = 0.;
   double xb = 0., yb = 0.;

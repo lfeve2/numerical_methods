@@ -11,7 +11,7 @@ PLOTS_DIR = PROJECT_ROOT / "plots"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 
-# Niveaux de maillage (utiliser [7, 8, 9] pour un run rapide, [8, 9, 10] pour les résultats finaux)
+# Mesh levels (use [7, 8, 9] for a quick run, [8, 9, 10] for final results)
 LEVELS = [8, 9, 10]
 WIDTH = 16.0
 C_SRC = Path("code") / "level1_hydro.c"
@@ -21,11 +21,11 @@ EXEC_ABSOLUTE = PROJECT_ROOT / EXEC
 
 if not C_SRC_ABSOLUTE.exists():
     raise FileNotFoundError(
-        "Aucun solveur de niveau 1 n'a été trouvé dans level1/code/. "
-        "Ajoute level1_hydro.c avant d'exécuter ce script."
+        "No Level 1 solver was found in level1/code/. "
+        "Add level1_hydro.c before running this script."
     )
 
-print("--- Compilation du code Basilisk ---")
+print("--- Compiling the Basilisk code ---")
 subprocess.run(
     ["qcc", "-O2", "-Wall", "-disable-dimensions", str(C_SRC), "-o", str(EXEC), "-lm"],
     cwd=PROJECT_ROOT,
@@ -39,7 +39,7 @@ pattern = re.compile(
 
 for lvl in LEVELS:
     log_name = OUTPUT_DIR / f"log_lvl_{lvl}.txt"
-    print(f"Lancement de la simulation pour LEVEL = {lvl}...")
+    print(f"Running the simulation for LEVEL = {lvl}...")
     with open(log_name, "w") as log_file:
         subprocess.run([str(EXEC_ABSOLUTE), str(lvl)], stderr=log_file, check=True)
 
@@ -56,7 +56,7 @@ for lvl in LEVELS:
                 re_list.append(re_val)
 
     if not t_list:
-        raise RuntimeError(f"Aucune donnée extraite de {log_name}. Vérifie la sortie du code C.")
+        raise RuntimeError(f"No data was extracted from {log_name}. Check the C program output.")
 
     results[lvl] = {
         "t": np.array(t_list),
@@ -67,7 +67,7 @@ for lvl in LEVELS:
     }
 
 print("\n" + "=" * 62)
-print(f"{'LEVEL':^7} | {'Delta_x_min':^12} | {'Vitesse terminale':^18} | {'Erreur Aire max':^15}")
+print(f"{'LEVEL':^7} | {'Delta_x_min':^12} | {'Terminal velocity':^18} | {'Max area error':^15}")
 print("=" * 62)
 
 v_inf = {}
@@ -91,7 +91,7 @@ if len(LEVELS) >= 3:
     e2 = abs(v_inf[LEVELS[2]] - v_inf[LEVELS[1]])
     if e2 > 0 and e1 > 0:
         p = np.log(e1 / e2) / np.log(2.0)
-        print(f"Ordre spatial apparent de convergence : p ≈ {p:.2f}")
+        print(f"Apparent spatial convergence order: p ≈ {p:.2f}")
 
 fig, axs = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -108,11 +108,11 @@ for lvl in LEVELS:
     rel_err_s = (results[lvl]["s"] - s0) / s0 * 100.0
     axs[1].plot(results[lvl]["t"], rel_err_s, label=f"LEVEL {lvl}")
 axs[1].set_xlabel("Temps adimensionnel $t$")
-axs[1].set_ylabel("Erreur relative d'aire $\\Delta S / S_0$ (%)")
-axs[1].set_title("Conservation de masse (VOF)")
+axs[1].set_ylabel("Relative area error $\\Delta S / S_0$ (%)")
+axs[1].set_title("Mass conservation (VOF)")
 axs[1].grid(True)
 axs[1].legend()
 
 plt.tight_layout()
-plt.savefig(PLOTS_DIR / "convergence_etude.pdf")
-print("\nGraphiques sauvegardés sous 'convergence_etude.pdf'.")
+plt.savefig(PLOTS_DIR / "convergence_study.pdf")
+print("\nPlot saved as 'convergence_study.pdf'.")
